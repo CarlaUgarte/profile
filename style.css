@@ -1,0 +1,82 @@
+#profile {
+  width: 200px;
+  align-items: center;
+  border-radius: 50%;
+}
+body {
+  background-color: rgb(255, 234, 237);
+  font-family:Trebuchet MS;
+  font-size: large;
+  line-height: normal;
+  text-align: center;
+}
+
+h1 {
+  color:rgb(147, 24, 42);
+  font-family:Franklin Gothic Medium;
+  font-size: 36px;
+  line-height:normal;
+}
+
+p {
+  color:rgb(147, 24, 42);
+  font-size: 22px;
+}
+
+h2 {
+  color:rgb(147, 24, 42);
+  font-size: 22px;
+}
+
+a {
+  text-decoration:none;
+  color:rgb(147, 24, 42);
+}
+
+a.button {
+  background-color: brown;
+  padding:5px;
+  border-radius: 3px;
+  font-size: 25px;
+  color:aliceblue
+}
+a:hover {
+  background-color:rgb(255, 234, 237);
+  color:rgb(147, 24, 42)
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding:30px;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+  line-height: 2;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
